@@ -48,11 +48,14 @@ body {
 	font-size: 22px;
 	color: #000;
 	letter-spacing: 1px;
-	&:hover, &:focus {
+	&:focus {
 		outline: none;
 		border: none;
 		border-color: transparent;
 		box-shadow: none;
+		& + .label-wrap {
+			opacity: 0;
+		}
 	}
 }
 

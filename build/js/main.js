@@ -15,8 +15,18 @@ $(document).ready(function(){
             TweenMax.to('svg', 0.3, {fill: '#737272', rotation: '90deg'})
             TweenMax.to('input', 0.3, {width: '81%'})
             TweenMax.to('label', 0.3, {width: '78%'})
-            TweenMax.from('label', 0.4, {css: {top: '130%', transform: 'translateY(-50%) rotate(10deg)'}, delay: 0.2})
         }
         
+    });
+
+    $('input').focus(function() {
+        $('.label-wrap').animate({opacity: 0},100);
+    });
+    $('input').blur(function() {
+        if(!$(this).val() == '') {
+            $('.label-wrap').animate({opacity: 0},100);
+        } else {
+            $('.label-wrap').animate({opacity: 1},1200);
+        }
     });
 });
