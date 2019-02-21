@@ -8,4 +8,4 @@
 
 ![search animation](https://cdn.dribbble.com/users/1773016/screenshots/5758564/2.gif)
 
-[![Analytics](https://ga-beacon.appspot.com/UA-31485994-5/search-animation)](https://github.com/alikinvv/search-animation)
+[![Analytics](https://ga-beacon.appspot.com/UA-31485994-5/search-animation-repo)](https://github.com/alikinvv/search-animation)
